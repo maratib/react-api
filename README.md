@@ -1,1 +1,1 @@
-# React 18, TS, REST Api
+# React 18, TS, TailwindCSS, REST Api
