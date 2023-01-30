@@ -1,33 +1,30 @@
-import { useState } from "react";
-import reactLogo from "@/assets/img/react.svg";
+import { useState } from 'react'
+import reactLogo from '@/assets/img/react.svg'
 
 function App() {
-  const [count, setCount] = useState(0);
+  const [count, setCount] = useState(0)
 
   const logoProps = {
     width: 96,
     height: 96,
-  };
+  }
 
   return (
     <div className="App">
       <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img
-            src="/img/vite.svg"
-            className="logo"
-            alt="Vite logo"
-            {...logoProps}
-          />
-        </a>
-        <a href="https://reactjs.org" target="_blank">
-          <img
-            src={reactLogo}
-            className="logo react"
-            alt="React logo"
-            {...logoProps}
-          />
-        </a>
+        <img
+          src="/img/vite.svg"
+          className="logo"
+          alt="Vite logo"
+          {...logoProps}
+        />
+
+        <img
+          src={reactLogo}
+          className="logo react"
+          alt="React logo"
+          {...logoProps}
+        />
       </div>
       <h1 className="text-red-500 text-5xl">Vite + React +</h1>
       <h1 className="text-red-500 text-5xl">TS + TailwindCSS + PWA</h1>
@@ -45,7 +42,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
