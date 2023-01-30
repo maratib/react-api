@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 
 module.exports = {
-  content: ["./src/**/*.{tsx,js,ts}"],
+  content: ["./src/**/*.{tsx,js,ts}", "./index.html"],
   theme: {
     debugScreens: {
       position: ["bottom", "right"],
